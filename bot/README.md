@@ -1,6 +1,6 @@
-# multi turn prompt sample
+#  sample
 
-Bot Framework v4 multi-turn prompt bot sample
+Bot Framework v4  bot sample
 
 This bot has been created using [Bot Framework](https://dev.botframework.com), it shows how to use the prompts classes included in `botbuilder-dialogs`.  This bot will ask for the user's name and age, then store the responses. It demonstrates a multi-turn dialog flow using a text prompt, a number prompt, and state accessors to store and retrieve values.
 
@@ -18,13 +18,13 @@ This bot has been created using [Bot Framework](https://dev.botframework.com), i
 - Clone the repository
 
     ```bash
-    git clone https://github.com/microsoft/botbuilder-samples.git
+    git clone https://github.com/madhansekar/MSAzureInterviewBot.git
     ```
 
-- In a terminal, navigate to `samples/javascript_nodejs/05.multi-turn-prompt`
+- In a terminal, navigate to `MSAzureInterviewBot-master/bot`
 
     ```bash
-    cd samples/javascript_nodejs/05.multi-turn-prompt
+    cd MSAzureInterviewBot-master/bot
     ```
 
 - Install modules
@@ -59,7 +59,7 @@ included in the [botbuilder-dialogs](https://docs.microsoft.com/en-us/azure/bot-
 and supported by the SDK.
 
 The `botbuilder-dialogs` library includes a variety of pre-built prompt classes, including text, number, and datetime types. This
-sample demonstrates using a text prompt to collect the user's name, then using a number prompt to collect an age.
+sample demonstrates using a text prompt to collect the user's name, then using a number prompt to collect an phone number and choice prompt to display questions.
 
 ## Deploy the bot to Azure
 
